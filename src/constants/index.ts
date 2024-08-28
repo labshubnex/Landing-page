@@ -120,6 +120,7 @@ export const socialimages = [
     link: "",
   },
 ];
+
 export const navbarlinks = [
   {
     id: 1,

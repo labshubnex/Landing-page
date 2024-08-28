@@ -1,6 +1,5 @@
 import NumberTicker from "../magicui/number-ticker";
 import ShinyButton from "../magicui/shiny-button";
-import SparklesText from "../magicui/sparkles-text";
 import { MarqueeDemo } from "./MarqueeDemo";
 
 const Hero = () => {
