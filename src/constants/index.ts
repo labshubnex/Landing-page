@@ -74,3 +74,21 @@ export const navbarlinks = [
     link: "/about",
   },
 ];
+
+export const reviews = [
+  {
+    img: "/companyicon/one.svg",
+  },
+  {
+    img: "/companyicon/two.svg",
+  },
+  {
+    img: "/companyicon/three.svg",
+  },
+  {
+    img: "/companyicon/four.svg",
+  },
+  {
+    img: "/companyicon/five.svg",
+  },
+];

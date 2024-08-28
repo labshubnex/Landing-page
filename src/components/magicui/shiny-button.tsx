@@ -24,12 +24,14 @@ const animationProps = {
   },
 } as AnimationProps;
 interface ShinyButtonProps {
-  text: string;
+  children: React.ReactNode;
   className?: string;
+  textcolor?: string;
 }
 const ShinyButton = ({
-  text = "shiny-button",
+  children,
   className,
+  textcolor = "text-white",
 }: ShinyButtonProps) => {
   return (
     <motion.button
@@ -39,12 +41,12 @@ const ShinyButton = ({
         className
       )}>
       <span
-        className="relative block h-full w-full text-[14px]  tracking-wide text-white"
+        className={`relative block h-full w-full text-[14px]  tracking-wide ${textcolor}`}
         style={{
           maskImage:
             "linear-gradient(-75deg,hsl(var(--primary)) calc(var(--x) + 20%),transparent 30%),hsl(var(--primary)) 100%))",
         }}>
-        {text}
+        {children}
       </span>
       <span
         style={{
@@ -52,7 +54,6 @@ const ShinyButton = ({
           maskComposite: "exclude",
         }}
         className="absolute inset-0 z-10 block rounded-[inherit] bg-[linear-gradient(-75deg,hsl(var(--primary)/10%)_calc(var(--x)+20%),hsl(var(--primary)/50%)_calc(var(--x)+25%),hsl(var(--primary)/10%)_calc(var(--x)+100%))] p-px"></span>
-      <img src="/icons/arrowright.svg" alt="image" />
     </motion.button>
   );
 };
