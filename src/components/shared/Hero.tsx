@@ -27,7 +27,7 @@ const Hero = () => {
             </ShinyButton>
             <ShinyButton className="border bg-blue-500" textcolor="text-white">
               <p className="flex items-center gap-2 py-1">
-                Contact Us
+                Join Us
                 <img src="/icons/arrowright.svg" className="" alt="" />
               </p>
             </ShinyButton>
