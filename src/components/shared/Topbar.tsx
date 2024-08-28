@@ -15,7 +15,7 @@ const Topbar = () => {
               className={`${
                 link.id !== 3 && "border-r-2 border-black"
               } flex items-center justify-center gap-2 px-4`}>
-              <p className="text-base">{link.label}</p>
+              <p className="text-base font-semibold">{link.label}</p>
               <img src={link.image} alt="arrow-image" className="w-3" />
             </Link>
           );
