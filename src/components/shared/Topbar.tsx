@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
-import { topbarlinks } from "../../constants";
+import { navbarlinks, topbarlinks } from "../../constants";
 import ShinyButton from "../magicui/shiny-button";
+import Navbar from "./Navbar";
 
 const Topbar = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center">
-      <div className="w-full flex items-center justify-end gap-3 border-b border-b-black p-3">
+    <div className="w-full flex flex-col items-center justify-center my-3 top-0">
+      <div className="w-[96%] flex items-center justify-end gap-3 border-b border-b-black p-3">
         {topbarlinks.map((link): JSX.Element => {
           return (
             <Link
@@ -14,7 +15,7 @@ const Topbar = () => {
               className={`${
                 link.id !== 3 && "border-r-2 border-black"
               } flex items-center justify-center gap-2 px-4`}>
-              <p className="text-lg">{link.label}</p>
+              <p className="text-base">{link.label}</p>
               <img src={link.image} alt="arrow-image" className="w-3" />
             </Link>
           );
@@ -24,7 +25,9 @@ const Topbar = () => {
         <div>
           <img src="/icons/hubnex.svg" alt="hubnex" className="w-[42px]" />
         </div>
-        <div>Link</div>
+        <div>
+          <Navbar links={navbarlinks} />
+        </div>
         <div className="flex items-center justify-between p-2">
           <Link to={""} className="text-blue-500">
             Login

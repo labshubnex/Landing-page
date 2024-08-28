@@ -52,7 +52,7 @@ const ShinyButton = ({
           maskComposite: "exclude",
         }}
         className="absolute inset-0 z-10 block rounded-[inherit] bg-[linear-gradient(-75deg,hsl(var(--primary)/10%)_calc(var(--x)+20%),hsl(var(--primary)/50%)_calc(var(--x)+25%),hsl(var(--primary)/10%)_calc(var(--x)+100%))] p-px"></span>
-      <img src="/icons/arrow.svg" alt="image" />
+      <img src="/icons/arrowright.svg" alt="image" />
     </motion.button>
   );
 };

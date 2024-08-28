@@ -1,7 +1,7 @@
 export const topbarlinks = [
   {
     id: 1,
-    label: "jobpreneur",
+    label: "Jobpreneur",
     link: "",
     image: "/icons/arrow.svg",
   },
@@ -18,5 +18,59 @@ export const topbarlinks = [
     label: "Techfund",
     link: "",
     image: "/icons/arrow.svg",
+  },
+];
+
+export const navbarlinks = [
+  {
+    id: 1,
+    label: "Explore Service",
+    isChildren: true,
+    children: [
+      {
+        item: "Service 1",
+        link: "/service1",
+      },
+      {
+        item: "Service 2",
+        link: "/service2",
+      },
+    ],
+  },
+  {
+    id: 2,
+    label: "Resources",
+    isChildren: true,
+    children: [
+      {
+        item: "Resource 1",
+        link: "/resource1",
+      },
+      {
+        item: "Resource 2",
+        link: "/resource2",
+      },
+    ],
+  },
+  {
+    id: 3,
+    label: "Community",
+    isChildren: true,
+    children: [
+      {
+        item: "Forum",
+        link: "/forum",
+      },
+      {
+        item: "Events",
+        link: "/events",
+      },
+    ],
+  },
+  {
+    id: 4,
+    label: "About",
+    isChildren: false,
+    link: "/about",
   },
 ];
