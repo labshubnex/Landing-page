@@ -16,6 +16,10 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      inter: ["Inter", "sans-serif"],
+      poppins: "Poppins",
+    },
     extend: {
       keyframes: {
         "accordion-down": {

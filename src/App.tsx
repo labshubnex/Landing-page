@@ -1,12 +1,13 @@
 import { Outlet } from "react-router-dom";
 import Topbar from "./components/shared/Topbar";
+import Footer from "./components/shared/Footer";
 
 const App = () => {
   return (
-    <div className="h-full">
+    <div className="h-full font-inter custom-scrollbar">
       <Topbar />
       <Outlet />
-      <h1>Bottombar</h1>
+      <Footer />
     </div>
   );
 };

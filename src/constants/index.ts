@@ -21,6 +21,105 @@ export const topbarlinks = [
   },
 ];
 
+export const footerLinks = [
+  {
+    id: 1,
+    label: "Company",
+    child: [
+      {
+        id: 10,
+        label: "About",
+        link: "",
+      },
+      {
+        id: 11,
+        label: "Services",
+        link: "",
+      },
+      {
+        id: 12,
+        label: "Careers",
+        link: "",
+      },
+      {
+        id: 13,
+        label: "For Partners",
+        link: "",
+      },
+    ],
+  },
+  {
+    id: 2,
+    label: "Help",
+    child: [
+      {
+        id: 20,
+        label: "Grievance Redressal Policy",
+        link: "",
+      },
+      {
+        id: 21,
+        label: "Community",
+        link: "",
+      },
+      {
+        id: 22,
+        label: "Terms & Conditions",
+        link: "",
+      },
+      {
+        id: 23,
+        label: "Privacy Policy",
+        link: "",
+      },
+    ],
+  },
+  {
+    id: 3,
+    label: "Resources",
+    child: [
+      {
+        id: 30,
+        label: "Blogs",
+        link: "",
+      },
+      {
+        id: 31,
+        label: "Case Studies",
+        link: "",
+      },
+      {
+        id: 32,
+        label: "Careers",
+        link: "",
+      },
+      {
+        id: 33,
+        label: "Insights",
+        link: "",
+      },
+    ],
+  },
+];
+
+export const socialimages = [
+  {
+    img: "/social/1.svg",
+    link: "",
+  },
+  {
+    img: "/social/2.svg",
+    link: "",
+  },
+  {
+    img: "/social/3.svg",
+    link: "",
+  },
+  {
+    img: "/social/4.svg",
+    link: "",
+  },
+];
 export const navbarlinks = [
   {
     id: 1,

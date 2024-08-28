@@ -7,7 +7,7 @@ import {
 
 const Navbar = ({ links }: { links: any }) => {
   return (
-    <div className="flex">
+    <div className="hidden lg:flex">
       {links.map((link: any) => (
         <DropdownMenu key={link.id}>
           <DropdownMenuTrigger asChild className="cursor-pointer ">
