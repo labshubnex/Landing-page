@@ -1,5 +1,4 @@
 import { publishedImages, statsData } from "../../constants";
-import Globe from "../magicui/globe";
 import NumberTicker from "../magicui/number-ticker";
 
 const GlobalMatrix = () => {
@@ -48,7 +47,11 @@ const GlobalMatrix = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 h-[32rem] sm:h-[40rem] lg:h-full relative p-5 ">
-          <Globe className="lg:-top-10" />
+          <img
+            src="/icons/globe.svg"
+            alt="globe"
+            className="w-full h-full object-contain"
+          />
         </div>
       </div>
     </section>
