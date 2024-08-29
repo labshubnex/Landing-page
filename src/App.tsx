@@ -4,7 +4,7 @@ import Footer from "./components/shared/Footer";
 
 const App = () => {
   return (
-    <div className="h-full font-inter custom-scrollbar">
+    <div className="h-full font-inter">
       <Topbar />
       <Outlet />
       <Footer />

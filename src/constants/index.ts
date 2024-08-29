@@ -210,3 +210,137 @@ export const personImages = [
     className: "border-1 border-white absolute left-16 top-0 w-10",
   },
 ];
+
+export const statsData = [
+  {
+    id: 1,
+    value: 40,
+    label: "Integrations",
+    sign: "+",
+  },
+  {
+    id: 2,
+    value: 600,
+    label: "Return on Investement",
+    sign: "%",
+  },
+  {
+    id: 3,
+    value: 4,
+    label: "Global Customers",
+    sign: "K+",
+  },
+];
+
+export const publishedImages = [
+  {
+    id: 1,
+    image: "/social/publish1.svg",
+    alt: "publishOne",
+  },
+  {
+    id: 2,
+    image: "/social/publish2.svg",
+    alt: "publishTwo",
+  },
+  {
+    id: 3,
+    image: "/social/publish3.svg",
+    alt: "publishThree",
+  },
+];
+
+export const caseStudyCardData = [
+  {
+    id: 1,
+    tag: "FINANCE",
+    image: "/icons/business1.svg",
+    title: "What is Ad Exposure and Why It Matters?",
+    description:
+      "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
+    link: "/",
+  },
+  {
+    id: 2,
+    tag: "BUSINESS",
+    image: "/icons/business1.svg",
+    title: "What is Ad Exposure and Why It Matters?",
+    description:
+      "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
+    link: "/",
+  },
+  {
+    id: 3,
+    tag: "MARKETING",
+    image: "/icons/business1.svg",
+    title: "What is Ad Exposure and Why It Matters?",
+    description:
+      "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
+    link: "/",
+  },
+  {
+    id: 1,
+    tag: "FINANCE",
+    image: "/icons/business1.svg",
+    title: "What is Ad Exposure and Why It Matters?",
+    description:
+      "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
+    link: "/",
+  },
+];
+export const blogsCardData = [
+  {
+    id: 1,
+    tag: "finance",
+    image: "/companyicon/blog1.svg",
+    title: "What is Ad Exposure and Why It Matters?",
+    description:
+      "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
+    link: "/",
+  },
+  {
+    id: 2,
+    tag: "Business",
+    image: "/companyicon/blog2.svg",
+    title: "What is Ad Exposure and Why It Matters?",
+    description:
+      "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
+    link: "/",
+  },
+  {
+    id: 3,
+    tag: "marketing",
+    image: "/companyicon/blog3.svg",
+    title: "What is Ad Exposure and Why It Matters?",
+    description:
+      "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
+    link: "/",
+  },
+  {
+    id: 4,
+    tag: "finance",
+    image: "/companyicon/blog1.svg",
+    title: "What is Ad Exposure and Why It Matters?",
+    description:
+      "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
+    link: "/",
+  },
+  {
+    id: 5,
+    tag: "business",
+    image: "/companyicon/blog2.svg",
+    title: "What is Ad Exposure and Why It Matters?",
+    description:
+      "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
+    link: "/",
+  },
+  {
+    id: 6,
+    tag: "marketing",
+    image: "/companyicon/blog3.svg",
+    title: "What is Ad Exposure and Why It Matters?",
+    description:
+      "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
+    link: "/",
+  },
+];

@@ -6,20 +6,20 @@ import { MarqueeDemo } from "./MarqueeDemo";
 
 const Hero = () => {
   return (
-    <div className="w-full">
-      <div className="w-[85%] flex flex-col-reverse lg:flex-row items-center justify-between gap-2 mx-auto">
-        <div className="flex flex-col items-start justify-start w-full lg:w-[45%] h-[30rem] ">
+    <div className="w-full h-auto">
+      <div className="w-[85%] relative flex flex-col-reverse lg:flex-row items-center justify-between gap-2 mx-auto">
+        <div className="flex flex-col items-start justify-start w-full lg:w-[45%] h-[30rem]">
           <h1 className="text-xl lg:text-7xl font-bold">
             <SparklesText
-              text=" Saas growth with weekly tips."
+              text="Saas growth with weekly tips."
               sparklesCount={40}
             />
           </h1>
           <p className="text-lg mt-5">
             Clarity gives you the blocks & components you need to create a truly
-            professional website, landing page or admin panel for your SaaS.
-            Clarity gives you the blocks & components you Clarity gives you the
-            blocks.
+            professional website, landing page, or admin panel for your SaaS.
+            Clarity gives you the blocks & components you need. Clarity gives
+            you the blocks.
           </p>
           <div className="mt-5 flex items-center justify-center gap-4">
             <ShinyButton
@@ -37,7 +37,7 @@ const Hero = () => {
               </p>
             </ShinyButton>
           </div>
-          <div className="w-full relative h-96  p-2 flex flex-col lg:flex-row items-center justify-between">
+          <div className="w-full relative h-96 p-2 flex flex-col lg:flex-row items-center justify-between">
             <div className="w-full lg:w-1/2 flex flex-col lg:border-r lg:border-r-gray-500 p-5">
               <div className="relative left-0 flex justify-end w-full">
                 {personImages.map((image) => (
@@ -55,7 +55,7 @@ const Hero = () => {
                 </div>
               </div>
               <div className="mt-4 w-full text-gray-500">
-                Companies are using & it&apos;s growing everyday
+                Companies are using & it&apos;s growing every day
               </div>
             </div>
             <div className="w-full lg:w-1/2 flex flex-col p-5">
@@ -81,8 +81,8 @@ const Hero = () => {
           <img src="/images/hero.png" alt="heroimage" className="rounded-xl" />
         </div>
       </div>
-      <div className="banner w-full lg:w-[90%] mt-14 lg:mx-auto font-bold flex flex-col gap-3">
-        <div className="">
+      <div className="banner relative w-full lg:w-[90%] mt-14 lg:mx-auto font-bold gap-3 overflow-x-hidden">
+        <div className="p-4 max-w-full">
           <h1 className="text-lg text-center mt-20">
             Join 4,000+ companies already growing
           </h1>
