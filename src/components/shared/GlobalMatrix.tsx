@@ -35,13 +35,13 @@ const GlobalMatrix = () => {
           </div>
           <div className="flex flex-col lg:flex-row gap-3 mt-10 items-center justify-between pr-2">
             <h1>Featured in</h1>
-            <div className="flex-1  lg:justify-evenly flex items-center justify-between">
+            <div className="flex-1 w-full lg:justify-evenly flex items-center justify-between">
               {publishedImages.map((publish) => (
                 <img
                   src={publish.image}
                   alt={publish.alt}
                   key={publish.alt}
-                  className="w-16 h-9"
+                  className="w-20 h-12"
                 />
               ))}
             </div>

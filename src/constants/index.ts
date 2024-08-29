@@ -288,6 +288,7 @@ export const caseStudyCardData = [
     link: "/",
   },
 ];
+
 export const blogsCardData = [
   {
     id: 1,
@@ -342,5 +343,65 @@ export const blogsCardData = [
     description:
       "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
     link: "/",
+  },
+];
+
+export const companyMatrixStats = [
+  {
+    id: 1,
+    value: 40,
+    sign: "+",
+    label: "Integration",
+  },
+  {
+    id: 2,
+    value: 40,
+    sign: "+",
+    label: "Integration",
+  },
+  {
+    id: 3,
+    value: 40,
+    sign: "+",
+    label: "Integration",
+  },
+  {
+    id: 4,
+    value: 40,
+    sign: "+",
+    label: "Integration",
+  },
+];
+
+export const slides = [
+  {
+    image: "/icons/slack-logo.svg",
+    title: "Driving results for leaders across the globe",
+    quote:
+      "“People now recognise that having a good performance conversation means that something happens as a result.”",
+    description:
+      "“With Landingfolio, the design team can now build design which identifies employees’ career aspirations and goals and from which we approach managers and check to see what is happening.”",
+    company: "Slack",
+    role: "Product Company",
+  },
+  {
+    image: "/icons/facebook.svg",
+    title: "Driving results for leaders across the globe",
+    quote:
+      "“People now recognise that having a good performance conversation means that something happens as a result.”",
+    description:
+      "“With Landingfolio, the design team can now build design which identifies employees’ career aspirations and goals and from which we approach managers and check to see what is happening.”",
+    company: "Facebook",
+    role: "Product Company",
+  },
+  {
+    image: "/icons/google.svg",
+    title: "Driving results for leaders across the globe",
+    quote:
+      "“People now recognise that having a good performance conversation means that something happens as a result.”",
+    description:
+      "“With Landingfolio, the design team can now build design which identifies employees’ career aspirations and goals and from which we approach managers and check to see what is happening.”",
+    company: "Google",
+    role: "Product Company",
   },
 ];

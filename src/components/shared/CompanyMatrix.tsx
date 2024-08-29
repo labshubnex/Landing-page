@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import ShinyButton from "../magicui/shiny-button";
+import NumberTicker from "../magicui/number-ticker";
+import { EmblaCarousel } from "../custom/CarouselTwo";
+import { companyMatrixStats, slides } from "../../constants";
 
 const CompanyMatrix = () => {
   return (
@@ -26,8 +29,30 @@ const CompanyMatrix = () => {
           </ShinyButton>
         </Link>
 
-        <div className=" mt-10 w-full lg:w-[80%] bg-gradient-to-r from-teal-100 via-sky-100  to-pink-100 h-44 rounded-lg flex items-center justify-center">
-          <div className="h-[90%] w-[85%] bg-white rounded-lg">box</div>
+        <div className=" mt-10 w-[95%] lg:w-[80%] bg-gradient-to-r from-teal-100 via-sky-100  to-pink-100  h-36 lg:h-44 rounded-lg flex items-center justify-center">
+          <div className="h-[90%] w-[85%] bg-white rounded-lg flex items-center justify-around">
+            {companyMatrixStats.map((data) => (
+              <div key={data.id} className="text-[0.5rem] lg:text[1rem]">
+                <h1 className="text-purple-600 text-xl lg:text-4xl flex items-center font-semibold">
+                  <NumberTicker
+                    value={data.value}
+                    className="text-purple-600"
+                  />{" "}
+                  <p>{data.sign}</p>
+                </h1>
+                <p className="mt-2">{data.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="m-5 w-full text-center">
+          <h3 className="text-blue-800 font-semibold my-2">
+            3940+ Happy Hubnex Labs Users
+          </h3>
+          <h2 className="text-3xl font-semibold">
+            Driving results for leaders across the globe
+          </h2>
+          <EmblaCarousel data={slides} />
         </div>
       </div>
     </section>

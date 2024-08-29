@@ -11,6 +11,7 @@ const Hero = () => {
         <div className="flex flex-col items-start justify-start w-full lg:w-[45%] h-[30rem]">
           <h1 className="text-xl lg:text-7xl font-bold">
             <SparklesText
+              className="w-fit text-wrap text-center md:text-left"
               text="Saas growth with weekly tips."
               sparklesCount={40}
             />
