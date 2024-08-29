@@ -40,7 +40,7 @@ const CompanyMatrix = () => {
                   />{" "}
                   <p>{data.sign}</p>
                 </h1>
-                <p className="mt-2">{data.label}</p>
+                <p className="mt-2 text-sm lg:text-xl">{data.label}</p>
               </div>
             ))}
           </div>
