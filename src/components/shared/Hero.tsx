@@ -1,5 +1,7 @@
+import { personImages } from "../../constants";
 import NumberTicker from "../magicui/number-ticker";
 import ShinyButton from "../magicui/shiny-button";
+import SparklesText from "../magicui/sparkles-text";
 import { MarqueeDemo } from "./MarqueeDemo";
 
 const Hero = () => {
@@ -8,7 +10,10 @@ const Hero = () => {
       <div className="w-[85%] flex flex-col-reverse lg:flex-row items-center justify-between gap-2 mx-auto">
         <div className="flex flex-col items-start justify-start w-full lg:w-[45%] h-[30rem] ">
           <h1 className="text-xl lg:text-7xl font-bold">
-            Saas growth with weekly tips.
+            <SparklesText
+              text=" Saas growth with weekly tips."
+              sparklesCount={40}
+            />
           </h1>
           <p className="text-lg mt-5">
             Clarity gives you the blocks & components you need to create a truly
@@ -35,28 +40,20 @@ const Hero = () => {
           <div className="w-full relative h-96  p-2 flex flex-col lg:flex-row items-center justify-between">
             <div className="w-full lg:w-1/2 flex flex-col lg:border-r lg:border-r-gray-500 p-5">
               <div className="relative left-0 flex justify-end w-full">
-                <img
-                  src="/icons/person1.svg"
-                  alt="person1"
-                  className="border-1 border-white absolute left-0 top-0 w-10"
-                />
-                <img
-                  src="/icons/person2.svg"
-                  alt="person2"
-                  className="border-1 border-white absolute left-8 top-0 w-10"
-                />
-                <img
-                  src="/icons/person3.svg"
-                  alt="person3"
-                  className="border-1 border-white absolute left-16 top-0 w-10"
-                />
+                {personImages.map((image) => (
+                  <img
+                    src={image.src}
+                    key={image.alt}
+                    alt={image.alt}
+                    className={image.className}
+                  />
+                ))}
                 <div>
                   <p className="text-3xl font-bold">
                     <NumberTicker value={5910} direction="up" />+
                   </p>
                 </div>
               </div>
-
               <div className="mt-4 w-full text-gray-500">
                 Companies are using & it&apos;s growing everyday
               </div>

@@ -4,7 +4,7 @@ import { footerLinks, socialimages } from "../../constants";
 
 const Footer = () => {
   return (
-    <div className="h-[80vh] w-full  px-20 py-10 mb-20">
+    <div className="h-[80vh] w-full px-5 lg:px-20 py-10 mb-20">
       <div className="w-full h-full ">
         <div className="relative bg-gradient-to-r from-black to-gray-500 text-white rounded-lg p-10 flex flex-col items-center justify-center w-full border border-green-500 lg:w-[90%] mx-auto overflow-hidden h-44">
           <h1 className="text-xl lg:text-3xl font-bold mb-6">
@@ -53,13 +53,13 @@ const Footer = () => {
             </div>
             <div className="mt-5 flex justify-center lg:justify-start items-center gap-7 lg:gap-4  mb-5">
               {socialimages.map((images, i) => (
-                <Link to={images.link}>
+                <Link to={images.link} key={`key-${i}`}>
                   <img src={images.img} alt={`image-${i}`} className="h-7" />
                 </Link>
               ))}
             </div>
           </div>
-          <div className="right-box w-full lg:w-[50%]">
+          <div className="right-box pb-20 w-full lg:w-[50%]">
             <div className="w-full h-full flex flex-col lg:flex-row items-start gap-3">
               {footerLinks.map((section) => (
                 <div className="flex flex-col flex-1  gap-2" key={section.id}>

@@ -192,3 +192,21 @@ export const reviews = [
     img: "/companyicon/five.svg",
   },
 ];
+
+export const personImages = [
+  {
+    src: "/icons/person1.svg",
+    alt: "person1",
+    className: "border-1 border-white absolute left-0 top-0 w-10",
+  },
+  {
+    src: "/icons/person2.svg",
+    alt: "person2",
+    className: "border-1 border-white absolute left-8 top-0 w-10",
+  },
+  {
+    src: "/icons/person3.svg",
+    alt: "person3",
+    className: "border-1 border-white absolute left-16 top-0 w-10",
+  },
+];
