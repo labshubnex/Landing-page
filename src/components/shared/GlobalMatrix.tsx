@@ -48,7 +48,7 @@ const GlobalMatrix = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 h-[32rem] sm:h-[40rem] lg:h-full relative p-5 ">
-          {/* <Globe className="lg:-top-10" /> */}
+          <Globe className="lg:-top-10" />
         </div>
       </div>
     </section>
