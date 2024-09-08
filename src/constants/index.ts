@@ -55,7 +55,7 @@ export const footerLinks = [
       {
         id: 20,
         label: "Grievance Redressal Policy",
-        link: "",
+        link: "/grievance",
       },
       {
         id: 21,
@@ -65,12 +65,12 @@ export const footerLinks = [
       {
         id: 22,
         label: "Terms & Conditions",
-        link: "",
+        link: "/term-and-condition",
       },
       {
         id: 23,
         label: "Privacy Policy",
-        link: "",
+        link: "/privacy-policy",
       },
     ],
   },
@@ -86,7 +86,7 @@ export const footerLinks = [
       {
         id: 31,
         label: "Case Studies",
-        link: "",
+        link: "/case-study",
       },
       {
         id: 32,
@@ -128,8 +128,8 @@ export const navbarlinks = [
     isChildren: true,
     children: [
       {
-        item: "Service 1",
-        link: "/service1",
+        item: "Contact",
+        link: "/contact",
       },
       {
         item: "Service 2",
@@ -403,5 +403,134 @@ export const slides = [
       "“With Landingfolio, the design team can now build design which identifies employees’ career aspirations and goals and from which we approach managers and check to see what is happening.”",
     company: "Google",
     role: "Product Company",
+  },
+];
+
+export const grievancePolicy = {
+  title: "Grievanve redressal policy",
+  description: [
+    "Mantarav Private Limited ( ExMyB or We), believes in ensuring that all the Users of the website of ExMyB, www.exmyb.com( Platform ) are able to get best out of the Services featured therein. Therefore, ExMyB believes in addressing any grievances or concerns that the Users have with regard to their experience on the Platform. Where any grievance is addressed to the Grievance Officer, the User shall receive an acknowledgement of the grievance or complaint within 48 (Forty - Eight) hours of receipt.",
+
+    "For the purpose of these Grievance Redressal Policy, wherever the context so requires 'You',Your or 'User' shall mean any natural or legal person who has registered and agreed to use the Platform or is visiting the Platform",
+  ],
+  content: [
+    {
+      title: "Policy Details",
+      description: [
+        "You shall also receive an alphanumerical/numerical identification number for tracking your grievances with the customer care. We assure You that ExMyB will make all reasonable endeavours to address the grievance made by You at the latest within 60 (Sixty) days from the date of receipt of the grievance",
+        "A grievance will be treated as closed if You communicate Your acceptance of the response received from the customer care team or where You fail to respond to the response received from the customer care team within 7 (Seven) days.",
+      ],
+    },
+    {
+      title: "Governance Framework",
+      description: [
+        "You shall also receive an alphanumerical/numerical identification number for tracking your grievances with the customer care. We assure You that ExMyB will make all reasonable endeavours to address the grievance made by You at the latest within 60 (Sixty) days from the date of receipt of the grievance.",
+        "A grievance will be treated as closed if You communicate Your acceptance of the response received from the customer care team or where You fail to respond to the response received from the customer care team within 7 (Seven) days.",
+      ],
+    },
+  ],
+};
+
+export const termsAndConditions = {
+  title: "Terms and Conditions",
+  description: [
+    "Mantarav Private Limited ( ExMyB or We), believes in ensuring that all the Users of the website of ExMyB, www.exmyb.com (Platform) are able to get best out of the Services featured therein. Therefore, ExMyB believes in addressing any grievances or concerns that the Users have with regard to their experience on the Platform. Where any grievance is addressed to the Grievance Officer, the User shall receive an acknowledgement of the grievance or complaint within 48 (Forty - Eight) hours of receipt.",
+    "For the purpose of these Grievance Redressal Policy, wherever the context so requires 'You', 'Your' or 'User' shall mean any natural or legal person who has registered and agreed to use the Platform or is visiting the Platform.",
+  ],
+  content: [
+    {
+      title: "Policy Details",
+      description: [
+        "You shall also receive an alphanumerical/numerical identification number for tracking your grievances with the customer care. We assure You that ExMyB will make all reasonable endeavours to address the grievance made by You at the latest within 60 (Sixty) days from the date of receipt of the grievance.",
+        "A grievance will be treated as closed if You communicate Your acceptance of the response received from the customer care team or where You fail to respond to the response received from the customer care team within 7 (Seven) days.",
+      ],
+    },
+    {
+      title: "Governance Framework",
+      description: [
+        "You shall also receive an alphanumerical/numerical identification number for tracking your grievances with the customer care. We assure You that ExMyB will make all reasonable endeavours to address the grievance made by You at the latest within 60 (Sixty) days from the date of receipt of the grievance.",
+        "A grievance will be treated as closed if You communicate Your acceptance of the response received from the customer care team or where You fail to respond to the response received from the customer care team within 7 (Seven) days.",
+      ],
+    },
+  ],
+};
+
+export const privacyPolicy = {
+  title: "Privacy Policy",
+  description: [
+    "At ExMyB, we are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner. This Privacy Policy outlines how we collect, use, and protect your personal information when you use our platform.",
+    "By accessing or using the ExMyB platform, you agree to the terms of this Privacy Policy. If you do not agree with the terms, please do not use the platform.",
+  ],
+  content: [
+    {
+      title: "Information Collection",
+      description: [
+        "We collect personal information that you provide to us when you register on the platform, use our services, or contact customer support. This may include your name, email address, phone number, and other relevant details.",
+        "We also collect non-personal information such as browser type, device type, and IP address for analytical purposes to improve our services.",
+      ],
+    },
+    {
+      title: "Use of Information",
+      description: [
+        "Your personal information is used to provide you with the services you request, including processing transactions, managing your account, and responding to your inquiries.",
+        "We may use your information for internal purposes such as data analysis, improving our services, and communicating with you about updates, offers, or changes to our platform.",
+      ],
+    },
+    {
+      title: "Data Protection",
+      description: [
+        "We take reasonable steps to protect your personal information from unauthorized access, loss, misuse, or alteration. However, no method of transmission over the internet is completely secure, and we cannot guarantee the absolute security of your data.",
+        "We will retain your personal information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy unless a longer retention period is required or permitted by law.",
+      ],
+    },
+  ],
+};
+
+export const cardData = [
+  {
+    number: 1,
+    title: "Endpoint Security",
+    definition:
+      "Our team deployed advanced endpoint protection solutions to safeguard desktops, laptops, and mobile devices from malware, ransomware, and other cyber threats.",
+    isActive: true,
+  },
+  {
+    number: 2,
+    title: "Network Security",
+    definition:
+      "We implemented robust network security measures, including firewalls, intrusion detection systems (IDS), and secure VPN (Virtual Private Network) connections, to protect against unauthorised access and network-based attacks.",
+  },
+  {
+    number: 3,
+    title: "Security Awareness Training",
+    definition:
+      "We provided comprehensive security awareness training programs for employees, focusing on cybersecurity best practices, phishing awareness, and incident response protocols.",
+  },
+  {
+    number: 4,
+    title: "Incident Response and Forensics",
+    definition:
+      "Our data experts also took care of incident response and forensics capabilities to detect, respond to, and recover from cybersecurity incidents effectively, minimising the impact on business operations and data integrity.",
+  },
+];
+
+export const progressDataCaseStudies = [
+  {
+    value: 60,
+    title: "Enhanced Patient Engagement",
+    about:
+      "We were successful in the development and deployment of the app before the planned timeline and supported their vision of making mental health more accessible to their patients, minus the hassles.",
+  },
+  {
+    value: 39,
+    title: "Improved Treatment Adherence",
+    about:
+      "Positive feedback from healthcare providers regarding improved patient adherence to treatment plans and therapy sessions was facilitated through the mobile application, resulting in more effective therapy outcomes.",
+  },
+  {
+    value: 53,
+    title: "Performance Scalability",
+    about:
+      "Seamless scalability and optimal performance of the mobile application, even during periods of peak user activity helped us ensure uninterrupted service availability and user satisfaction.",
   },
 ];

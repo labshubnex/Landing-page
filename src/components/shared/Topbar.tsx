@@ -23,7 +23,9 @@ const Topbar = () => {
       </div>
       <div className="w-[88%] mx-auto flex items-center justify-between p-4">
         <div>
-          <img src="/icons/hubnex.svg" alt="hubnex" className="w-[42px]" />
+          <Link to={"/"}>
+            <img src="/icons/hubnex.svg" alt="hubnex" className="w-[42px]" />
+          </Link>
         </div>
         <div>
           <Navbar links={navbarlinks} />

@@ -1,3 +1,4 @@
+import Stripe from "../components/custom/Stripe";
 import Benefits from "../components/shared/Benefits";
 import Blogs from "../components/shared/Blogs";
 import CaseStudy from "../components/shared/CaseStudy";
@@ -13,6 +14,11 @@ const Landingpage = () => {
       <GlobalMatrix />
       <CaseStudy />
       <CompanyMatrix />
+      <Stripe
+        buttonLink=""
+        description="Work better, together"
+        title="Get Evaluate Your Business score for Free!"
+      />
       <Blogs />
     </div>
   );
