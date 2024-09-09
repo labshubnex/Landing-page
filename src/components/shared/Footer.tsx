@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import ShinyButton from "../magicui/shiny-button";
 import { footerLinks, socialimages } from "../../constants";
+import { handleLinkClick } from "../../lib/utils";
 
 const Footer = () => {
   return (
@@ -66,6 +67,7 @@ const Footer = () => {
                   <h1 className="font-semibold">{section.label}</h1>
                   {section.child.map((element) => (
                     <Link
+                      onClick={handleLinkClick}
                       className="text-black hover:text-zinc-700 transition-all "
                       to={element.link}
                       key={element.id}>

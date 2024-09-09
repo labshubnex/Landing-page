@@ -7,6 +7,7 @@ import Grievance from "./pages/Grievance.tsx";
 import TermsAndCondition from "./pages/TermAndCondition.tsx";
 import PrivacyAndPolicy from "./pages/PrivacyAndPolicy.tsx";
 import CaseStudyPage from "./pages/CaseStudy.tsx";
+import Partners from "./pages/Partners.tsx";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "case-study",
         element: <CaseStudyPage />,
+      },
+      {
+        path: "/partners",
+        element: <Partners />,
       },
     ],
   },

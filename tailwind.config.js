@@ -22,6 +22,10 @@ module.exports = {
     },
     extend: {
       keyframes: {
+        grid: {
+          "0%": { transform: "translateY(-80%)" },
+          "100%": { transform: "translateY(0)" },
+        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -40,6 +44,7 @@ module.exports = {
         },
       },
       animation: {
+        grid: "grid 15s linear infinite",
         marquee: "marquee var(--duration) linear infinite",
         "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
         "accordion-down": "accordion-down 0.2s ease-out",

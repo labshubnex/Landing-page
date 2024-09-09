@@ -44,7 +44,7 @@ export const footerLinks = [
       {
         id: 13,
         label: "For Partners",
-        link: "",
+        link: "/partners",
       },
     ],
   },
