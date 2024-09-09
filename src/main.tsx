@@ -6,7 +6,6 @@ import { Contact, Landing } from "./pages/index.ts";
 import Grievance from "./pages/Grievance.tsx";
 import TermsAndCondition from "./pages/TermAndCondition.tsx";
 import PrivacyAndPolicy from "./pages/PrivacyAndPolicy.tsx";
-import CaseStudy from "./pages/CaseStudy.tsx";
 import CaseStudyPage from "./pages/CaseStudy.tsx";
 
 const router = createBrowserRouter([

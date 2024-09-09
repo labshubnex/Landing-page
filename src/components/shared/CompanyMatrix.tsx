@@ -3,9 +3,8 @@ import ShinyButton from "../magicui/shiny-button";
 import NumberTicker from "../magicui/number-ticker";
 import { EmblaCarousel } from "../custom/CarouselTwo";
 import { companyMatrixStats, slides } from "../../constants";
-import Stripe from "../custom/Stripe";
 
-const CompanyMatrix = ({ isShow = true }: { isShow: boolean }) => {
+const CompanyMatrix = ({ isShow = true }: { isShow?: boolean }) => {
   return (
     <section
       id="company matrix"

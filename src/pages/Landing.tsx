@@ -13,7 +13,7 @@ const Landingpage = () => {
       <Benefits />
       <GlobalMatrix />
       <CaseStudy />
-      <CompanyMatrix />
+      <CompanyMatrix isShow />
       <Stripe
         buttonLink=""
         description="Work better, together"
