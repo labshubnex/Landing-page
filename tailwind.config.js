@@ -9,6 +9,12 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    // colors: {
+    //   "boarding-gray": "#E5EAF0",
+    //   white: "#ffffff",
+    //   "blue-primary": "#2563EA",
+    //   black: "#000000",
+    // },
     container: {
       center: true,
       padding: "2rem",

@@ -22,22 +22,27 @@ export function BreadcrumbWithCustomSeparator({
         {links.map((link, i) => {
           if (i !== links.length - 1) {
             return (
-              <>
+              <div key={link.label}>
                 <BreadcrumbItem>
+                  {" "}
                   <BreadcrumbLink>
                     <Link to={link.to}>{link.label}</Link>
                   </BreadcrumbLink>
                 </BreadcrumbItem>
                 <BreadcrumbSeparator />
-              </>
+              </div>
             );
           }
           return (
-            <BreadcrumbItem className="text-black font-semibold">
-              <BreadcrumbLink>
-                <Link to={link.to}>{link.label}</Link>
-              </BreadcrumbLink>
-            </BreadcrumbItem>
+            <div key={link.label}>
+              <BreadcrumbItem
+                className="text-black font-semibold"
+                key={link.label}>
+                <BreadcrumbLink>
+                  <Link to={link.to}>{link.label}</Link>
+                </BreadcrumbLink>
+              </BreadcrumbItem>
+            </div>
           );
         })}
       </BreadcrumbList>

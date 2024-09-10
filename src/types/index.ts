@@ -4,3 +4,10 @@ export interface CardProp {
   definition: string;
   isActive?: boolean;
 }
+
+export interface IBoardingCard {
+  icon: any;
+  step: string;
+  heading: string;
+  description: string;
+}

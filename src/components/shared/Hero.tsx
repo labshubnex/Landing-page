@@ -4,17 +4,42 @@ import ShinyButton from "../magicui/shiny-button";
 import SparklesText from "../magicui/sparkles-text";
 import { MarqueeDemo } from "./MarqueeDemo";
 
+const headingAbout = [
+  {
+    text: "SaaS",
+    value: 10,
+  },
+  {
+    text: "growth",
+    value: 10,
+  },
+  {
+    text: "with",
+    value: 10,
+  },
+  {
+    text: "weekly",
+    value: 10,
+  },
+  {
+    text: "tips.",
+    value: 10,
+  },
+];
+
 const Hero = () => {
   return (
     <div className="w-full h-auto">
       <div className="w-[85%] relative flex flex-col-reverse lg:flex-row items-center justify-between gap-2 mx-auto">
         <div className="flex flex-col items-start justify-start w-full lg:w-[45%] h-[30rem]">
-          <h1 className="text-xl lg:text-7xl font-bold">
-            <SparklesText
-              className="w-fit text-wrap text-center md:text-left"
-              text="Saas growth with weekly tips."
-              sparklesCount={40}
-            />
+          <h1 className="text-xl lg:text-7xl font-bold flex flex-wrap gap-5">
+            {headingAbout.map((heading) => (
+              <SparklesText
+                className="w-fit text-wrap text-center md:text-left tracking-wide"
+                text={heading.text}
+                sparklesCount={heading.value}
+              />
+            ))}
           </h1>
           <p className="text-lg mt-5">
             Clarity gives you the blocks & components you need to create a truly

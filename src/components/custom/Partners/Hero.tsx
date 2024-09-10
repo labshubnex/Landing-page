@@ -99,7 +99,11 @@ const Hero = () => {
           </div>
         </div>
         <div className="p-2 w-full lg:w-[40%]">
-          <img src="/images/hero.png" alt="heroimage" className="rounded-xl" />
+          <img
+            src="/images/partnerhero.png"
+            alt="heroimage"
+            className="rounded-xl"
+          />
         </div>
       </div>
       <div className="banner relative w-full lg:w-[90%] mt-14 lg:mx-auto font-bold gap-3 overflow-x-hidden">

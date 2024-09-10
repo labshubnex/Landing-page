@@ -21,13 +21,13 @@ export function EmblaCarousel({
           <div
             className="embla__slide mt-16 cursor-pointer no-select"
             key={card.role}>
-            <div className="flex items-center flex-col lg:flex-row justify-center">
+            <div className="flex items-center flex-col lg:flex-row justify-between">
               <img
                 src={card.image}
                 alt={`card-${card.role}`}
-                className="h-full w-[40%]"
+                className="h-full w-[30%]"
               />
-              <div className="h-full  flex-1 w-full p-5 lg:w-[60%] flex flex-col items-center justify-start">
+              <div className="h-full  flex-1 w-full p-5 lg:w-[50%] flex flex-col items-center justify-start">
                 <h2 className=" text-2xl lg:text-4xl font-semibold text-left">
                   {card.title}
                 </h2>
