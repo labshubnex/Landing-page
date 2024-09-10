@@ -22,9 +22,10 @@ export function BreadcrumbWithCustomSeparator({
         {links.map((link, i) => {
           if (i !== links.length - 1) {
             return (
-              <div key={link.label}>
+              <div
+                key={link.label}
+                className="flex items-center justify-center gap-2">
                 <BreadcrumbItem>
-                  {" "}
                   <BreadcrumbLink>
                     <Link to={link.to}>{link.label}</Link>
                   </BreadcrumbLink>

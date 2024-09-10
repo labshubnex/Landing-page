@@ -23,10 +23,7 @@ const Partners = () => {
   return (
     <div className="w-full">
       <div className="w-[85%] mx-auto p-3">
-        <BreadcrumbWithCustomSeparator
-          links={partnerBreadScrums}
-          key={"key-1"}
-        />
+        <BreadcrumbWithCustomSeparator links={partnerBreadScrums} />
       </div>
       <Hero />
       <Technology />

@@ -214,7 +214,7 @@ export const personImages = [
 export const statsData = [
   {
     id: 1,
-    value: 40,
+    value: 60,
     label: "Integrations",
     sign: "+",
   },
