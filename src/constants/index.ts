@@ -81,7 +81,7 @@ export const footerLinks = [
       {
         id: 30,
         label: "Blogs",
-        link: "",
+        link: "/blogs",
       },
       {
         id: 31,

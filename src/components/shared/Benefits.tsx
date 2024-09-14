@@ -22,7 +22,7 @@ const Benefits = () => {
           />
         ))}
       </BentoGrid>
-      <RetroGrid />
+      <RetroGrid angle={22} />
     </section>
   );
 };

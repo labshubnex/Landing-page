@@ -42,3 +42,7 @@
   -ms-user-select: none;
   user-select: none;
 }
+
+.leading-15 {
+  line-height: 3rem;
+}

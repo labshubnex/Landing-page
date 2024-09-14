@@ -16,7 +16,7 @@ const Stripe = ({
         <div className="w-[80%] h-full flex ">
           <img src="/icons/crown.svg" alt="crown" className="w-13 mx-6" />
           <div className="w-full text-left">
-            <p className="text-sm "> {description}</p>
+            <p className="text-sm font-light "> {description}</p>
             <h1 className="text-2xl lg:text-3xl font-semibold">{title}</h1>
           </div>
         </div>

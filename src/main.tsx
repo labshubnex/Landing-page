@@ -8,6 +8,8 @@ import TermsAndCondition from "./pages/TermAndCondition.tsx";
 import PrivacyAndPolicy from "./pages/PrivacyAndPolicy.tsx";
 import CaseStudyPage from "./pages/CaseStudy.tsx";
 import Partners from "./pages/Partners.tsx";
+import Blogs from "./pages/Blogs.tsx";
+import AboutUs from "./pages/AboutUs.tsx";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +43,14 @@ const router = createBrowserRouter([
       {
         path: "/partners",
         element: <Partners />,
+      },
+      {
+        path: "/blogs",
+        element: <Blogs />,
+      },
+      {
+        path: "/about",
+        element: <AboutUs />,
       },
     ],
   },

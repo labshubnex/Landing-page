@@ -22,12 +22,12 @@ const Footer = () => {
           <div className="absolute -top-20 -left-10 w-36 h-36 rounded-full border-4 border-gray-500 opacity-30"></div>
           <div className="absolute -bottom-20 -right-9 w-36 h-36 rounded-full border-4 border-white opacity-30"></div>
         </div>
-        <div className="w-full lg:w-[90%] mx-auto  flex flex-col lg:flex-row items-center justify-between mt-5 border-b-2 border-gray-300 pb-5">
-          <h1 className="text-4xl font-semibold text-center lg:text-left my-2 lg:my-0">
+        <div className="w-full  lg:w-[90%] mx-auto  flex flex-col lg:flex-row items-center justify-between mt-5 border-b-2 border-gray-300 pb-5">
+          <h1 className="text-4xl font-semibold text-center lg:text-left my-2 lg:my-6 tracking-wide">
             Let’s grow 💪 <br /> together with the faster ecosystem
           </h1>
           <Link to={""}>
-            <ShinyButton className="bg-black rounded-xl py-2">
+            <ShinyButton className="bg-black rounded-full py-2">
               <p className="flex items-center gap-1">
                 Contact Us <img src="/icons/arrowright.svg" alt="image" />{" "}
               </p>
