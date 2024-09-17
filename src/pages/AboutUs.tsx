@@ -1,7 +1,10 @@
+import Founder from "../components/custom/AboutUs/Founder";
 import { Hero } from "../components/custom/AboutUs/Hero";
 import Location from "../components/custom/AboutUs/Location";
 import { BreadcrumbWithCustomSeparator } from "../components/custom/BreadScrum";
+import Stripe from "../components/custom/Stripe";
 import Benefits from "../components/shared/Benefits";
+import CompanyMatrix from "../components/shared/CompanyMatrix";
 import GlobalMatrix from "../components/shared/GlobalMatrix";
 
 const aboutUsBreadScrums = [
@@ -26,6 +29,13 @@ const AboutUs = () => {
       <GlobalMatrix />
       <Benefits />
       <Location />
+      <Founder />
+      <CompanyMatrix isShow={false} />
+      <Stripe
+        buttonLink="/"
+        description="Work better, together"
+        title="Get Evaluate Your Business Score for Free!"
+      />
     </div>
   );
 };

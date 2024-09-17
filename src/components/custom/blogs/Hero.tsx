@@ -1,4 +1,3 @@
-import React from "react";
 import ShinyButton from "../../magicui/shiny-button";
 
 const Hero = () => {

@@ -373,6 +373,25 @@ export const companyMatrixStats = [
   },
 ];
 
+export const founderData = [
+  {
+    name: "Ranveer Singh",
+    role: "CEO & Founder",
+    bio: "Yatra sought to optimise and improve verticals to facilitate greater cooperation with its partners, boost customer experience, and streamline operations.verticals to facilitate greater cooperation with its partners, boost customer experience.",
+    image: "/images/location.png",
+    label: "Linkedin",
+    link: "",
+  },
+  {
+    name: "Ranveer Singh",
+    role: "CEO & Founder",
+    bio: "Yatra sought to optimise and improve verticals to facilitate greater cooperation with its partners, boost customer experience, and streamline operations.verticals to facilitate greater cooperation with its partners, boost customer experience.",
+    image: "/images/location.png",
+    label: "Linkedin",
+    link: "",
+  },
+];
+
 export const slides = [
   {
     image: "/icons/slack-logo.svg",
