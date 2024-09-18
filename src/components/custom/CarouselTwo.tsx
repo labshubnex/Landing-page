@@ -17,10 +17,8 @@ export function EmblaCarousel({
   return (
     <div className="embla" ref={emblaRef}>
       <div className="embla__container">
-        {data.map((card) => (
-          <div
-            className="embla__slide mt-16 cursor-pointer no-select"
-            key={card.role}>
+        {data.map((card, i) => (
+          <div className="embla__slide mt-16 cursor-pointer no-select" key={i}>
             <div className="flex items-center flex-col lg:flex-row justify-between">
               <img
                 src={card.image}

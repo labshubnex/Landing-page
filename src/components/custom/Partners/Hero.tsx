@@ -28,8 +28,9 @@ const Hero = () => {
       <div className="w-[85%] relative flex flex-col-reverse lg:flex-row items-center justify-between gap-2 mx-auto">
         <div className="flex flex-col items-start justify-start w-full lg:w-[45%] h-[30rem]">
           <h1 className="text-xl lg:text-7xl font-bold flex flex-wrap gap-5">
-            {headingAbout.map((heading) => (
+            {headingAbout.map((heading, i) => (
               <SparklesText
+                key={i}
                 className="w-fit text-wrap text-center md:text-left tracking-wide"
                 text={heading.text}
                 sparklesCount={heading.value}

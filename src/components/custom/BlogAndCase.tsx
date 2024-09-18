@@ -30,7 +30,7 @@ const BlogAndCase = ({
         <h1 className="text-center text-2xl lg:text-4xl font-semibold my-7 ">
           {title}
         </h1>
-        <p className="text-lg font-medium w-[75%] mx-auto text-center">
+        <p className="text-lg font-light w-[75%] mx-auto text-center">
           {description}
         </p>
         <div className="w-full m-auto mt-5 flex items-center justify-center mb-5">

@@ -9,7 +9,7 @@ export const topbarlinks = [
   {
     id: 2,
     label: "Skillup",
-    link: "",
+    link: "https://skill-up-indol.vercel.app/",
     image: "/icons/arrow.svg",
   },
 
@@ -29,7 +29,7 @@ export const footerLinks = [
       {
         id: 10,
         label: "About",
-        link: "",
+        link: "/about",
       },
       {
         id: 11,

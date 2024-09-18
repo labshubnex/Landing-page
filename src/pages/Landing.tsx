@@ -16,8 +16,8 @@ const Landingpage = () => {
       <CompanyMatrix isShow />
       <Stripe
         buttonLink=""
-        description="Work better, together"
-        title="Get Evaluate Your Business score for Free!"
+        title="Work better, together"
+        description="Get Evaluate Your Business score for Free!"
       />
       <Blogs />
     </div>

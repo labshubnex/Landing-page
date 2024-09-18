@@ -17,9 +17,15 @@ export function CeoCorousal({
   return (
     <div className="embla" ref={emblaRef}>
       <div className="embla__container">
-        {data.map((card) => (
-          <div className="w-full flex gap-6">
-            <img src={card.image} alt="image" className="w-72 rounded-lg " />
+        {data.map((card, i) => (
+          <div
+            className="min-w-full flex-col lg:flex-col flex gap-6"
+            key={`key-${i}`}>
+            <img
+              src={card.image}
+              alt="image"
+              className="w-72 rounded-lg mx-auto lg:mx-0"
+            />
             <div className="p-3 flex items-start justify-between flex-col">
               <div>
                 <h2 className="text-2xl lg:text-4xl font-semibold my-4">

@@ -10,6 +10,7 @@ const Topbar = () => {
         {topbarlinks.map((link): JSX.Element => {
           return (
             <Link
+              target="_blank"
               to={link.link}
               key={link.id}
               className={`${
@@ -35,7 +36,7 @@ const Topbar = () => {
             Login
           </Link>
           <Link to={"/contacts"}>
-            <ShinyButton className="bg-blue-500 ml-5  text-xs font-semibold capitalize py-3 px-5">
+            <ShinyButton className="bg-[#1D4ED8] ml-5  text-xs font-semibold capitalize py-3 px-5">
               <p className="flex items-center gap-2">
                 Connect sales{" "}
                 <img src="/icons/arrowright.svg" alt="rightarrow" />{" "}

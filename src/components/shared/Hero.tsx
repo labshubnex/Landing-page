@@ -33,8 +33,9 @@ const Hero = () => {
       <div className="w-[85%] relative flex flex-col-reverse lg:flex-row items-center justify-between gap-2 mx-auto">
         <div className="flex flex-col items-start justify-start w-full lg:w-[45%] h-[30rem]">
           <h1 className="text-xl lg:text-7xl font-bold flex flex-wrap gap-5">
-            {headingAbout.map((heading) => (
+            {headingAbout.map((heading, i) => (
               <SparklesText
+                key={i}
                 className="w-fit text-wrap text-center md:text-left tracking-wide"
                 text={heading.text}
                 sparklesCount={heading.value}
@@ -49,14 +50,14 @@ const Hero = () => {
           </p>
           <div className="mt-5 flex items-center justify-center gap-4">
             <ShinyButton
-              className="text-black border-black border"
+              className="text-black border-black border "
               textcolor="black">
               <p className="flex items-center gap-2 py-1">
                 Contact Us
                 <img src="/icons/rightarrowblack.svg" className="" alt="" />
               </p>
             </ShinyButton>
-            <ShinyButton className="border bg-blue-500" textcolor="text-white">
+            <ShinyButton className="border bg-[#1D4ED8]" textcolor="text-white">
               <p className="flex items-center gap-2 py-1">
                 Join Us
                 <img src="/icons/arrowright.svg" className="" alt="" />
